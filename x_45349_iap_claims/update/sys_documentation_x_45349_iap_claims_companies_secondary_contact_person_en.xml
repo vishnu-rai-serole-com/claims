@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="secondary_contact_person" label="Secondary Contact Person" language="en" table="x_45349_iap_claims_companies">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>secondary_contact_person</element>
+            <help/>
+            <hint/>
+            <label>Secondary Contact Person</label>
+            <language>en</language>
+            <name>x_45349_iap_claims_companies</name>
+            <plural>Secondary Contact Persons</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-03 03:58:21</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>2a345fff2fbbc0101959808cf699b684</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Secondary Contact Person</sys_name>
+            <sys_package display_value="IAP-Claims" source="x_45349_iap_claims">69724b332fbbc0101959808cf699b69f</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="IAP-Claims">69724b332fbbc0101959808cf699b69f</sys_scope>
+            <sys_update_name>sys_documentation_x_45349_iap_claims_companies_secondary_contact_person_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-03 03:58:21</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

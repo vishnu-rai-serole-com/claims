@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Imp Tmpl X 45349 Iap Claims Countries" max_length="40" name="u_imp_tmpl_x_45349_iap_claims_countries" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=A2 (ISO)" label="A2 (ISO)" max_length="40" name="u_a2__iso_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Capital" label="Capital" max_length="100" name="u_capital" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Code" label="Code" max_length="40" name="u_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Country" label="Country" max_length="100" name="u_country" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Country Id" label="Country Id" max_length="40" name="u_country_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Currency" label="Currency" max_length="40" name="u_currency" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Currency Code" label="Currency Code" max_length="40" name="u_currency_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Internet" label="Internet" max_length="40" name="u_internet" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ISO3" label="ISO3" max_length="40" name="u_iso3" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Ison" label="Ison" max_length="40" name="u_ison" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Map Reference" label="Map Reference" max_length="100" name="u_map_reference" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Nationality" label="Nationality" max_length="100" name="u_nationality" type="string"/>
+    </element>
+</database>

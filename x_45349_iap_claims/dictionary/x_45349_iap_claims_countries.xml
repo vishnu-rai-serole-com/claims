@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Countries" max_length="40" name="x_45349_iap_claims_countries" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="A2 (ISO)" max_length="40" name="a2_iso" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Capital" max_length="100" name="capital" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Code" max_length="40" name="code" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Country" max_length="100" name="country" type="string"/>
+        <element label="Country Id" max_length="40" name="country_id" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Currency" max_length="40" name="currency" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Currency Code" max_length="40" name="currency_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Internet" max_length="40" name="internet" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ISO3" max_length="40" name="iso3" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Ison" max_length="40" name="ison" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Map Reference" max_length="100" name="map_reference" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Nationality" max_length="100" name="nationality" type="string"/>
+    </element>
+</database>

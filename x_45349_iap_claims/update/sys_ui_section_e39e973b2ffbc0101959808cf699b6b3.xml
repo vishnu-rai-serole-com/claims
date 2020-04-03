@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Address" section_id="e39e973b2ffbc0101959808cf699b6b3" sys_domain="global" table="x_45349_iap_claims_companies" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>street</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-03 04:43:47</sys_created_on>
+            <sys_id>8caed73b2ffbc0101959808cf699b665</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Address" display_value="Address" name="x_45349_iap_claims_companies" sys_domain="global" view="Default view">e39e973b2ffbc0101959808cf699b6b3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-03 04:43:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>city</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-03 04:43:47</sys_created_on>
+            <sys_id>04aed73b2ffbc0101959808cf699b666</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Address" display_value="Address" name="x_45349_iap_claims_companies" sys_domain="global" view="Default view">e39e973b2ffbc0101959808cf699b6b3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-03 04:43:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>zipcode</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-03 04:43:47</sys_created_on>
+            <sys_id>88aed73b2ffbc0101959808cf699b666</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Address" display_value="Address" name="x_45349_iap_claims_companies" sys_domain="global" view="Default view">e39e973b2ffbc0101959808cf699b6b3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-03 04:43:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>country</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-03 04:43:47</sys_created_on>
+            <sys_id>00aed73b2ffbc0101959808cf699b667</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Address" display_value="Address" name="x_45349_iap_claims_companies" sys_domain="global" view="Default view">e39e973b2ffbc0101959808cf699b6b3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-03 04:43:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Address</caption>
+            <header>false</header>
+            <name>x_45349_iap_claims_companies</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-03 04:43:46</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e39e973b2ffbc0101959808cf699b6b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Address</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="IAP-Claims" source="x_45349_iap_claims">69724b332fbbc0101959808cf699b69f</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="IAP-Claims">69724b332fbbc0101959808cf699b69f</sys_scope>
+            <sys_update_name>sys_ui_section_e39e973b2ffbc0101959808cf699b6b3</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-03 04:43:46</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

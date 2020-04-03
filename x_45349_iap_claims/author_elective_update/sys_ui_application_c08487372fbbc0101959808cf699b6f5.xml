@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="DELETE">
+        <active>true</active>
+        <hint/>
+        <name>Companies</name>
+        <order/>
+        <roles>x_45349_iap_claims.org_admin</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-03 02:49:39</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>c08487372fbbc0101959808cf699b6f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Companies</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IAP-Claims" source="x_45349_iap_claims">69724b332fbbc0101959808cf699b69f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IAP-Claims">69724b332fbbc0101959808cf699b69f</sys_scope>
+        <sys_update_name>sys_ui_application_c08487372fbbc0101959808cf699b6f5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-03 02:49:39</sys_updated_on>
+    </sys_ui_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IAP-Claims">69724b332fbbc0101959808cf699b69f</application>
+        <file_path/>
+        <instance_id>cc152f47dbc4f6447e55d5b0cf9619a4</instance_id>
+        <instance_name>dev27380</instance_name>
+        <name>sys_ui_application_c08487372fbbc0101959808cf699b6f5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application"><sys_ui_application action="INSERT_OR_UPDATE"><active>true</active><hint/><name>Companies</name><order/><roles>x_45349_iap_claims.org_admin</roles><sys_class_name>sys_ui_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-04-03 02:49:39</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path/><sys_id>c08487372fbbc0101959808cf699b6f5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Companies</sys_name><sys_overrides/><sys_package display_value="IAP-Claims" source="x_45349_iap_claims">69724b332fbbc0101959808cf699b69f</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="IAP-Claims">69724b332fbbc0101959808cf699b69f</sys_scope><sys_update_name>sys_ui_application_c08487372fbbc0101959808cf699b6f5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-04-03 02:49:39</sys_updated_on></sys_ui_application></record_update>]]></payload>
+        <payload_hash>558430011</payload_hash>
+        <record_name>Companies</record_name>
+        <reverted_from/>
+        <source>fe83c7732fbbc0101959808cf699b67d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-03 02:49:39</sys_created_on>
+        <sys_id>948487372fbbc0101959808cf699b6f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1713df1a8f30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-03 02:49:39</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>8c84873781bbc010ac4ff7af841dcff6</update_guid>
+        <update_guid_history>8c84873781bbc010ac4ff7af841dcff6:558430011</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-03 05:37:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_application">sys_ui_application</sys_db_object>
+        <sys_id>6cb82afb9709444881b5da2bad768240</sys_id>
+        <sys_metadata>c08487372fbbc0101959808cf699b6f5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Companies</sys_name>
+        <sys_package display_value="IAP-Claims" source="x_45349_iap_claims">69724b332fbbc0101959808cf699b69f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IAP-Claims">69724b332fbbc0101959808cf699b69f</sys_scope>
+        <sys_scope_delete display_value="">ac0547172f4843429fee7b6d0d60db04</sys_scope_delete>
+        <sys_update_name>sys_ui_application_c08487372fbbc0101959808cf699b6f5</sys_update_name>
+        <sys_update_version display_value="sys_ui_application_c08487372fbbc0101959808cf699b6f5">948487372fbbc0101959808cf699b6f7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-03 05:37:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

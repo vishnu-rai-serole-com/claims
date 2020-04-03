@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Companies" max_length="40" name="x_45349_iap_claims_companies" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="City" max_length="100" name="city" type="string"/>
+        <element attributes="encode_utf8=false" label="Country" max_length="32" name="country" reference="x_45349_iap_claims_countries" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Date of Incorporation" max_length="40" name="date_of_incorporation" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Fax" max_length="40" name="fax" type="string"/>
+        <element attributes="pdf_cell_type=image" label="Logo" max_length="40" name="logo" type="user_image"/>
+        <element label="Manufacturer" max_length="40" name="manufacturer" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" mandatory="true" max_length="100" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Notes" max_length="1000" name="notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Phone" max_length="40" name="phone" type="string"/>
+        <element label="Primary" max_length="40" name="primary" type="boolean"/>
+        <element attributes="encode_utf8=false" label="Primary Contact Person" mandatory="true" max_length="32" name="primary_contact_person" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Secondary Contact Person" max_length="32" name="secondary_contact_person" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Street" max_length="100" name="street" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Tax Number" max_length="40" name="tax_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Trading As" max_length="100" name="trading_as" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type of Company" max_length="40" name="type_of_company" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Private" sequence="10" value="Private"/>
+                <element inactive_on_update="false" label="Public Listed" sequence="20" value="Public Listed"/>
+                <element inactive_on_update="false" label="Public Unlisted" sequence="30" value="Public Unlisted"/>
+                <element inactive_on_update="false" label="Association" sequence="40" value="Association"/>
+                <element inactive_on_update="false" label="Co-operative" sequence="50" value="Co-operative"/>
+            </choice>
+        </element>
+        <element label="Vendor" max_length="40" name="vendor" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Website" max_length="1024" name="website" type="url"/>
+        <element label="Zipcode" max_length="40" name="zipcode" type="integer"/>
+        <index name="index">
+            <element name="country"/>
+        </index>
+        <index name="index2">
+            <element name="primary_contact_person"/>
+        </index>
+        <index name="index3">
+            <element name="secondary_contact_person"/>
+        </index>
+    </element>
+</database>
