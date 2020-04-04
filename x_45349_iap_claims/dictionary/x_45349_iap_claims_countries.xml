@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Countries" max_length="40" name="x_45349_iap_claims_countries" type="collection">
+    <element label="Countries" max_length="40" name="x_45349_iap_claims_countries" sizeclass="247" type="collection">
         <element attributes="edge_encryption_enabled=true" label="A2 (ISO)" max_length="40" name="a2_iso" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Capital" max_length="100" name="capital" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Code" max_length="40" name="code" type="string"/>
