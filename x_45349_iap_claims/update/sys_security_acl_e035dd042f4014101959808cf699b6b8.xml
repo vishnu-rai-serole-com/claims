@@ -2,19 +2,28 @@
     <sys_security_acl action="INSERT_OR_UPDATE">
         <active>true</active>
         <admin_overrides>true</admin_overrides>
-        <advanced>false</advanced>
-        <condition table="x_45349_iap_claims_companies.date_of_incorporation">date_of_incorporationISEMPTY^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
-        </condition>
-        <description/>
+        <advanced>true</advanced>
+        <condition/>
+        <description>Allow write for date_of_incorporation in x_45349_iap_claims_companies, for users with role x_45349_iap_claims.org_admin, and if the ACL script returns true.</description>
         <name>x_45349_iap_claims_companies.date_of_incorporation</name>
         <operation display_value="write">write</operation>
-        <script/>
+        <script><![CDATA[answer = isDIOEmpty();
+
+function isDIOEmpty(){
+	if (current.primary == true && current.date_of_incorporation == ""){
+		return true;
+	}else if(current.primary == false && (current.date_of_incorporation == "" || current.date_of_incorporation != "")){
+		return true;
+	}else{
+		return false;
+	}
+}]]></script>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-04-03 13:22:55</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>e035dd042f4014101959808cf699b6b8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>x_45349_iap_claims_companies.date_of_incorporation</sys_name>
         <sys_package display_value="IAP-Claims" source="x_45349_iap_claims">69724b332fbbc0101959808cf699b69f</sys_package>
         <sys_policy/>
@@ -22,7 +31,7 @@
         <sys_scope display_value="IAP-Claims">69724b332fbbc0101959808cf699b69f</sys_scope>
         <sys_update_name>sys_security_acl_e035dd042f4014101959808cf699b6b8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-04-03 13:22:55</sys_updated_on>
+        <sys_updated_on>2020-04-04 09:40:53</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
 </record_update>

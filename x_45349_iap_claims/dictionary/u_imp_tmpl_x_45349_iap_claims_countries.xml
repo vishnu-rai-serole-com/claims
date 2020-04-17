@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_import_set_row" label="Imp Tmpl X 45349 Iap Claims Countries" max_length="40" name="u_imp_tmpl_x_45349_iap_claims_countries" sizeclass="247" type="collection">
+    <element extends="sys_import_set_row" label="Imp Tmpl X 45349 Iap Claims Countries" max_length="40" name="u_imp_tmpl_x_45349_iap_claims_countries" sizeclass="0" type="collection">
         <element attributes="edge_encryption_enabled=true,import_attribute_name=A2 (ISO)" label="A2 (ISO)" max_length="40" name="u_a2__iso_" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Capital" label="Capital" max_length="100" name="u_capital" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Code" label="Code" max_length="40" name="u_code" type="string"/>
